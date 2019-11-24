@@ -1,0 +1,273 @@
+
+/* 0px --- 480px --- 768px --- 1024px ---1200px */
+/* from big tablet to 1200px ()*/
+
+@media only screen and (max-width: 1200px) {
+
+.main-text {
+    width: 100%;
+}
+
+.wrap {
+    padding: 0 3%;
+
+}
+
+
+    /*-------------*/
+
+.features-iphone {
+    margin-top: 55px;
+}
+
+.features-iphone img {
+    width: 70%;
+    height: auto;
+    margin-left: 60px;
+}
+
+.features-box {
+    margin-top: 55px;
+    margin-right: 50px;
+    width: 400px;
+}
+
+    /*-------------*/
+
+.price-box {
+    width: 240px;
+}
+
+    /*-------------*/
+
+.testimonials-box {
+    height: 210px;
+    width: 270px;
+    padding: 30px;
+}
+
+    /*-------------*/
+
+.download-box {
+    width: 330px;
+    height: 115px;
+}
+
+
+
+}
+
+/* Small tablet to big tablet  768px-1023px*/
+
+@media only screen and (max-width: 1023px) {
+
+
+    /*-------------*/
+
+.section-features {
+    height: 900px;
+
+}
+
+.features-iphone {
+    margin-top: 25px;
+    width: 350px;
+}
+
+.features-iphone img {
+    width: 70%;
+    height: auto;
+    margin-left: 40px;
+}
+
+.features-box {
+    margin-top: 25px;
+    margin-right: 20px;
+    width: 350px;
+}
+
+.features-box h2 {
+    font-size: 26px;
+
+}
+
+.first-copy {
+    padding-bottom: 50px;
+}
+
+.checkbox-2 {
+    font-size: 12px;
+}
+    /*-------------*/
+
+.section-screenshots {
+    height: 800px;
+
+}
+
+     /*-------------*/
+
+.price-box {
+    width: 170px;
+    height: 410px;
+}
+
+.price-name {
+    padding: 10px 10px;
+}
+
+.plan-price {
+    font-size: 25px;
+    padding: 10px 15px;
+
+}
+
+.price-box-features li:after {
+    width: 70px;
+}
+
+
+.standart {
+    margin: 0 10px;
+}
+
+
+.premium {
+    margin-right: 10px;
+}
+
+ /*-------------*/
+
+.testimonials-box {
+    height: 300px;
+    width: 150px;
+}
+
+cite img {
+    height: 40px;
+}
+
+.testimonials-box-text {
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+
+ /*-------------*/
+
+.download-box {
+    width: 235px;
+    height: 115px;
+}
+
+.download-text-box {
+    padding-right: 15px;
+}
+
+.download-text-box  p {
+    font-size: 12px;
+}
+
+.icon-box {
+    width: 80px;
+}
+
+.play-store {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.microsoft-store {
+    padding-right: 3px;
+
+}
+
+.iphones-header {
+    display: none;
+}
+
+
+
+}
+
+/* Small phones to small tablet  481px-767px*/
+
+@media only screen and (max-width: 767px) {
+
+.main-nav {
+    list-style: none;
+    width: 300px;
+    padding-top: 40px;
+}
+
+.main-nav li {
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.features-line-first {
+    height: 650px;
+}
+
+.features-iphone {
+    display: none;
+}
+
+.section-features {
+    height: 1200px;
+}
+
+.price-p {
+    margin-bottom: 40px;
+}
+
+.premium {
+        margin: 0;
+}
+
+.price-box {
+    width: 210px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+.section-testimonials {
+    height: 1305px;
+}
+
+.section-testimonials p {
+    margin-bottom: 30px;
+}
+
+
+.testimonials-box {
+    height: 270px;
+    width: 150px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.section-download-app {
+    padding-top:30px;
+    height: 500px;
+}
+
+.section-download-app h2 {
+    margin-bottom: 40px;
+    }
+
+    .download-box {
+        margin-left: 100px;
+        margin-bottom: 25px;
+    }
+
+    .social-links {
+        text-align: left;
+        margin-left: 100px;
+    }
+/* for small phones 0-480px*/
+
+@media only screen and (max-width: 480px) {
+
+}
