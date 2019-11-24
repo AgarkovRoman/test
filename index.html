@@ -2,10 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/queries.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/37a2051544.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <title>Giant</title>
 </head>
 <body>
@@ -43,6 +48,9 @@
                    </div>
                 </main>
              </div>
+             <div class="iphones-header">
+                 <img src="resources/img/phones.png" alt="">
+             </div>
           </div>
      </header>
      <section class="section-features">
@@ -57,7 +65,7 @@
                          <p>Over 92% of computers are infected with Adware and spyware. Such sofware is</p>
                      </div>
                  </div>
-                 <div class="features-container" id="container-middle">
+                 <div class="features-container">
                      <div class="features-icon">
                          <i class="fas fa-cog"></i>
                      </div>
@@ -75,8 +83,6 @@
                          <p>Audio player software is used to play back sound recordings in one of the </p>
                      </div>
                  </div>
-             </div>
-             <div class="features-line-second">
                  <div class="features-container">
                      <div class="features-icon">
                          <i class="fas fa-fire-extinguisher"></i>
@@ -86,7 +92,7 @@
                          <p>Computers have become ubiquitous in almost every facet of our lives. At work</p>
                      </div>
                  </div>
-                 <div class="features-container" id="container-middle">
+                 <div class="features-container">
                      <div class="features-icon">
                          <i class="far fa-file-alt"></i>
                      </div>
@@ -134,8 +140,24 @@
                  Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a<br> UX designer, why develop this totally separate skill?
              </p>
              <div class="screenshot-carousel">
-                 <img src="resources/img/img3.jpg" alt="screenshot">
+                 <img src="resources/img/carousel1.jpg" alt="">
              </div>
+
+
+               <!--<div class="wrapper-slick">
+                <div class="my-slider">
+                    <div class="my-slider-item">
+                        <img src="resources/img/carousel1.jpg" alt="screenshot">
+                    </div>
+                    <div class="my-slider-item">
+                        <img src="resources/img/carousel1.jpg" alt="screenshot">
+                    </div>
+                    <div class="my-slider-item">
+                        <img src="resources/img/carousel1.jpg" alt="screenshot">
+                    </div>
+                </div>
+
+             </div> --->
 
          </div>
      </section>
@@ -172,7 +194,7 @@
                          <a href="#" class="price-btn">Buy now</a>
                       </div>
               </div>
-              <div class="price-box" id="standart">
+              <div class="price-box standart">
                         <div class="price-name">
                             <h3>Standart</h3>
                         </div>
@@ -196,7 +218,7 @@
                          <a href="#" class="price-btn">Buy now</a>
                       </div>
               </div>
-              <div class="price-box" id="premium">
+              <div class="price-box premium">
                         <div class="price-name">
                             <h3>Premium</h3>
                         </div>
@@ -249,8 +271,8 @@
 
 
      <section class="section-video">
-         <div id="circle">
-             <div id="triangle"></div>
+         <div class="circle">
+             <div class="triangle"></div>
          </div>
      </section>
 
@@ -279,7 +301,7 @@
                     </cite>
                 </blockquote>
              </div>
-             <div class="testimonials-box" id="gary-sebastian">
+             <div class="testimonials-box gary-sebastian">
                 <blockquote>
                     Very happy with the theme and incredibly easy to configure, well done! I cannot emphasize how awesome this theme and developer support are.
                     <br>
@@ -316,9 +338,6 @@
      </section>
 
 
-
-
-
      <section class="section-download-app">
        <div class="wrap">
             <h2>Download Giant App Now</h2>
@@ -331,7 +350,7 @@
                     <i class="fab fa-apple"></i>
                </div>
             </div>
-            <div class="download-box" id="play-store">
+            <div class="download-box play-store">
                <div class="download-text-box">
                    <h3>Download</h3>
                    <p>Download from play store</p>
@@ -342,7 +361,7 @@
 
             </div>
             <div class="download-box">
-               <div class="download-text-box" id="microsoft-store">
+               <div class="download-text-box microsoft-store">
                    <h3>Download</h3>
                    <p>Download from microsoft store</p>
                </div>
@@ -358,10 +377,10 @@
      <footer>
          <div class="wrap">
          <ul class="social-links">
-             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-             <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-             <li><a href="#"><i class="fab fa-behance"></i></a></li>
+             <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+             <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+             <li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+             <li><a href="#" target="_blank"><i class="fab fa-behance"></i></a></li>
          </ul>
          <div class="copyright">
              <p>
@@ -370,6 +389,25 @@
          </div>
          </div>
      </footer>
+
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script>
+    $('.my-slider').slick({
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      centerMode: true,
+      variableWidth: true
+    });
+</script>
+
+
+
+
 
 </body>
 </html>
